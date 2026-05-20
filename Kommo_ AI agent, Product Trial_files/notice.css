@@ -1,0 +1,5 @@
+#create_dashboard_widget .notice__hover-wrapper_create_widget {
+    height: auto !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+}

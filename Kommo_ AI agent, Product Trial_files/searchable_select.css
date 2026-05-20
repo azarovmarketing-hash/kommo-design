@@ -1,0 +1,181 @@
+.sensei-searchable-select {
+    position: relative;
+    color: var(--palette-text-primary);
+    height: 36px;
+}
+
+.sensei-searchable-select.button-hidden {
+    height: 0px;
+}
+
+.sensei-searchable-select__button {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    outline: 0;
+    padding-top: 1px;
+    border: 1px solid var(--palette-border-default);
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    background: var(--palette-background-gradient-default);
+    padding-right: 25px;
+    padding-left: 9px;
+    color: inherit;
+}
+
+.sensei-searchable-select__button__inner::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 5px);
+    width: 6px;
+    height: 6px;
+    border-bottom: 1px solid var(--palette-text-primary);
+    border-right: 1px solid var(--palette-text-primary);
+    transform: rotate(45deg);
+    margin-left: 7px;
+    right: 12px;
+}
+
+.sensei-underlined-select .sensei-searchable-select__button {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: left;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: 0;
+    padding: 0;
+    color: var(--sensei-dynseg_value_text);
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sensei-underlined-select.sensei-searchable-select {
+    height: auto;
+    min-width: 0;
+}
+
+.sensei-underlined-select .sensei-searchable-select__button.not-selected {
+    color: var(--sensei-dynseg_select_text);
+}
+
+.sensei-underlined-select .sensei-searchable-select__button__inner::after {
+    display: none;
+}
+
+
+.sensei-searchable-select__button.hidden {
+    display: none;
+}
+
+.sensei-searchable-select.expand .sensei-searchable-select__container  {
+    display: block;
+}
+
+.sensei-searchable-select__container {
+    z-index: 10;
+    width: max-content;
+    min-width: max(100%, 300px);
+    max-width: 300px;
+    display: none;
+    position: absolute;
+    background: var(--palette-background-primary);
+    border: 1px solid var(--palette-border-default); 
+}
+
+.sensei-searchable-select__search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 6px 7px 15px;
+    border-bottom: 1px solid var(--palette-border-default); 
+}
+
+.sensei-searchable-select__search::placeholder {
+    color: var(--palette-placeholder-primary);
+}
+
+.sensei-searchable-select__search.disabled {
+    max-height: 0px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.sensei-searchable-select__list {
+    display: block;
+}
+
+.sensei-searchable-select__list.scroll {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.sensei-searchable-select__list.auto-scroll {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.sensei-searchable-select__list__item {
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    padding: 8px 15px 7px 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    display: flex;
+}
+
+.sensei-searchable-select__list__item.search-hide {
+    display: none;
+}
+
+.sensei-searchable-select__list__item.hidden {
+    display: none;
+}
+
+.sensei-searchable-select__list__item:not(.disabled):hover {
+    background: var(--palette-background-default);
+}
+
+
+.sensei-searchable-select__list__item.disabled {
+    cursor: default;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #acb0b3;
+}
+
+.sensei-searchable-select__list__item.selected {
+    background: var(--palette-background-primary);
+}
+
+.sensei-searchable-select__list__item .check {
+    margin-left: -7px;
+    margin-right: 7px;
+    opacity: 0;
+}
+
+.sensei-searchable-select__list__item.selected .check {
+    opacity: 1;
+}
+
+.sensei-searchable-select__list__item__inner {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sensei-underlined-select .sensei-searchable-select__hidden-input.sensei-validation__error ~ .sensei-validation-indicator__circle {
+    display: inline;
+}

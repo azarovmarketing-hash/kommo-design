@@ -1,0 +1,30 @@
+.sensei-switcher-control-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.sensei-switcher-control-wrapper .switcher_wrapper .switcher.switcher_blue {
+    display: inline-block;
+    vertical-align: text-top;
+    height: 19px;
+}
+
+.sensei-switcher-control-wrapper .switcher_wrapper .switcher.switcher__off::before {
+    right: 2px;
+    width: 10px;
+}
+
+.sensei-switcher-control-wrapper .switcher_wrapper .switcher.switcher__off::after {
+    background: var(--sensei-workplaces-break-off);
+    border: none;
+}
+
+.sensei-switcher-control-wrapper .switcher_wrapper .switcher.switcher__on::after{
+    background: var(--sensei-workplaces-break-on);
+}
+
+.sensei-switcher-text-tip {
+    color: var(--sensei-workplaces-break-tip);
+    margin-top: 8px;
+}

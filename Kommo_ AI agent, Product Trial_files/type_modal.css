@@ -1,0 +1,77 @@
+.sensei-dynseg2-modal.sensei-dynseg2-type-modal .modal-body {
+    padding: 30px 30px;
+}
+
+.sensei-dynseg2-modal.sensei-dynseg2-type-modal.create-mode .modal-body {
+    background: white;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 19px 47px 0px #0000001A;
+}
+
+.sensei-dynseg2-type-modal .modal-header {
+    color: #363B45;
+    font-size: 25px;
+}
+
+.sensei-dynseg2-type-modal .modal-content {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sensei-dynseg2-type-modal .content-block {
+    background: white;
+    border: 1px solid #E9ECED;
+    border-radius: 5px;
+
+    width: 300px;
+    height: 225px;
+
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+.sensei-dynseg2-type-modal .content-block:not(:last-child) {
+    margin-right: 20px;
+}
+
+.sensei-dynseg2-type-modal .content-block.disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.sensei-dynseg2-type-modal .content-block:not(.disabled).selected {
+    border-color: #4C81FB;
+}
+
+.sensei-dynseg2-type-modal .content-block__title {
+    color: #363b44;
+    
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sensei-dynseg2-type-modal .content-block__lines {
+    font-size: 14px;
+    line-height: 15px;
+    color: #A0AEBF;
+    text-align: center;
+    margin: 0px 35px;
+}
+
+.sensei-dynseg2-type-modal .content-block__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.sensei-dynseg2-type-modal.create-mode .content-block__icon {
+    background: white;
+}

@@ -1,0 +1,45 @@
+.button_opacity_disable {
+    background: rgba(74, 128, 250, 0.5) !important;
+    border: 1px solid rgba(179, 203, 255, 0.5) !important;
+    pointer-events: none !important;
+}
+
+.sensei_tooltip_workplace_bar[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+.sensei_tooltip_workplace_bar[data-tooltip]:hover::before {
+    content: "";
+    position: absolute;
+    top: 111%;
+    right: 18%;
+    z-index: 1;
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    border: 1px solid rgba(197, 197, 197, 1);
+    border-top-color: white;
+    border-left-color: white;
+    transform: rotate(226deg);
+}
+
+.sensei_tooltip_workplace_bar[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 120%;
+    right: 0;
+    color: rgba(107, 109, 114, 1);
+    background: #ffffff;
+    padding: 5px 9px 5px 9px;
+    border-radius: 2px;
+    pointer-events: none;
+    font-family: 'PT Sans Caption','Arial Black',sans-serif;
+    border: 1px solid rgba(197, 197, 197, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.82px;
+    width: 160px;
+    text-align: start;
+    white-space: normal;
+}

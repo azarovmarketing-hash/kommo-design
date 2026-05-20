@@ -1,0 +1,18 @@
+.sensei-dp-inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.digital-pipeline__sensei-modal .form-group.sensei-dp-mb-16px {
+    margin-bottom: 16px;
+}
+
+.digital-pipeline__sensei-modal.digital-pipeline__edit-bubble .form-group__title {
+    margin-bottom: 5px;
+    display: inline-flex;
+}
+
+.digital-pipeline__sensei-modal.digital-pipeline__edit-bubble .sensei-dp-mb5, 
+.digital-pipeline__sensei-modal.digital-pipeline__edit-bubble .sensei-dp-mb5 .form-group__control {
+    margin-bottom: 5px;
+}

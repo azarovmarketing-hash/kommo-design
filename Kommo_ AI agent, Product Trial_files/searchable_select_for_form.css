@@ -1,0 +1,132 @@
+.sensei-searchable-select_form {
+    position: relative;
+    color: var(--palette-text-primary);
+    height: auto;
+}
+
+.sensei-searchable-select_form.button-hidden {
+    height: 0px;
+}
+
+.sensei-searchable-select__button_form {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    outline: 0;
+    border: 1px solid var(--palette-border-default);
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom,#fcfcfc 0%,#f8f8f9 100%);
+    padding: 1px 25px 0 9px;
+    color: inherit;
+}
+
+.sensei-underlined-select.sensei-searchable-select_form {
+    height: auto;
+    min-width: 0;
+}
+
+.sensei_select_result_button_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sensei-fill_fields-modal .sensei-searchable-select__button_form .sensei_select_result_button_wrapper::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 6px);
+    border-right: 1px solid #848c90;
+    border-bottom: 1px solid #848c90;
+    transform: rotate(45deg);
+    margin-left: 7px;
+    z-index: 5;
+    right: 5px;
+}
+
+.sensei_select_result_button {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sensei-searchable-select__container_form {
+    z-index: 30;
+    width: max-content;
+    min-width: max(100%, 300px);
+    max-width: 300px;
+    display: none;
+    position: absolute;
+    background: var(--palette-background-primary);
+    border: 1px solid var(--palette-border-primary);
+    right: -1px;
+    top: -1px;
+}
+
+.sensei-searchable-select_form.expand .sensei-searchable-select__container_form  {
+    display: block;
+}
+
+.sensei-searchable-select-form__list__item {
+    cursor: pointer;
+    margin: 0;
+}
+
+.sensei-searchable-select-form__list__item:hover {
+    background: var(--palette-background-default);
+}
+
+.sensei-searchable-select-form__list__item.control--select--list--item-selected {
+    background: var(--palette-background-default);
+}
+
+.sensei-searchable-select-form__button__inner {
+    cursor: pointer;
+}
+
+.sensei-searchable-select-form__list {
+    display: block;
+}
+
+.sensei-searchable-select-form__list.scroll {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+
+.sensei-fill_fields-modal .linked-form__field__value .sensei-searchable-select_form {
+    max-width: 100%;
+    width: fit-content;
+}
+
+.sensei-fill_fields-modal .linked-form__field__value .sensei-searchable-select__button_form {
+    width: auto;
+}
+
+.sensei-fill_fields-modal .linked-form__field__value .sensei-searchable-select__button_form::after {
+    display: none;
+}
+
+.sensei-fill_fields-modal .linked-form__field__value .sensei-searchable-select__button_form .sensei-searchable-select-form__button__inner {
+    max-width: 100%;
+    width: auto !important;
+}
+
+.sensei_hide-element {
+    display: none;
+}
+
+.sensei_input_find_select {
+    box-sizing: content-box;
+    padding-left: 20px;
+}

@@ -1,0 +1,36 @@
+.sensei-segment-remove-icon {
+    width: 12px;
+    height: 13px;
+}
+
+.sensei-dynseg2-modal .modal-body {
+    box-shadow: none;
+    background: var(--palette-background-primary);
+    padding: 30px 35px;
+    width: fit-content;
+}
+
+.sensei-dynseg2-modal.modal > .modal-overlay {
+    background: #FFFFFF80;
+}
+
+.sensei-dynseg2-launch-modal .modal-body {
+    width: 500px;
+    padding: 35px 30px 30px 30px;
+    background: white;
+}
+
+.sensei-dynseg2-launch-modal .modal-body__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 12px;
+}
+
+.sensei-dynseg2-launch-modal .modal-body__description {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.sensei-dynseg2-launch-modal .sensei-searchable-select:not(:last-child) {
+    margin-bottom: 10px;
+}

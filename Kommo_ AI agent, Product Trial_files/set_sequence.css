@@ -1,0 +1,48 @@
+#sensei-dynseg2-edit-modal-sequence-content.modal-content-block__box-container {
+    width: fit-content;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box.sensei-dynseg2-edit-modal-sequence-item {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+
+    width: fit-content;
+    color: var(--sensei-dynseg_select_text);
+}
+
+.sensei-dynseg2-edit-modal-sequence-item-select-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item .sequence-mode-form {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item:first-child .sequence-mode-form {
+    display: none;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item .sequence-mode-form .sensei-radio {
+    margin-right: 20px;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item .sequence-mode-form .sensei-radio__icon-container {
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item .sensei-dynseg2-edit-modal-sequence-item-dynseg-select,
+.sensei-dynseg2-edit-modal-sequence-add {
+    width: 430px;
+    box-sizing: border-box;
+}
+
+.sensei-dynseg2-edit-modal-sequence-item .sensei-radio .sensei-radio__text,
+.sensei-dynseg2-edit-modal-sequence-item .sensei-dynseg2-edit-modal-sequence-item-dynseg-select .sensei-searchable-select__button .sensei-searchable-select__button__inner {
+    font-size: 16px;
+}

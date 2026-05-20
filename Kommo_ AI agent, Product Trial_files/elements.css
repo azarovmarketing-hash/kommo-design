@@ -1,0 +1,94 @@
+.sensei-process-elements .control--select--list--item-inner {
+    width: auto !important;
+}
+.sensei-tasks-control-select-list-opened .control--select--list--item-inner:has(.sensei-task-result-color),
+.sensei-process-elements .control--select--list--item:not([data-value="0"]):not(:has(.sensei-card-task__result-comment)):has(.sensei-task-result-color) .control--select--list--item-inner {
+    padding-left: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.sensei-tasks-control-select-list-opened .control--select--list--item-inner-text,
+.sensei-process-elements .control--select--list--item:not(:has(.sensei-card-task__result-comment)) .control--select--list--item-inner .control--select--list--item-inner-text {
+    width: 100%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-holder__feed .notes-wrapper__tasks .feed-note-wrapper-task .card-task-future.sensei-open-task .card-task__result-wrapper {
+    display: block !important;
+}
+
+.sensei-task-result-color {
+    width: 17px;
+    height: 17px;
+
+    display: inline-block;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+}
+
+.sensei-task-result-color-border {
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--sensei-task-result-color-border-color);
+}
+
+.feed-note-wrapper-task .card-task .sensei-process-elements button.control--select--button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.feed-note-wrapper-task .card-task .sensei-process-elements button.control--select--button .control--select--button-inner {
+    width: 100%;
+
+    flex-shrink: 1;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sensei-card-task-buttons-result {
+    flex-direction: column;
+    gap: 11px;
+}
+
+.sensei-task-buttons-result-container {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sensei-task-buttons-result-container button.sensei-task-result-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px 5px 10px;
+    gap: 2px;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: var(--color-white);
+    flex: none;
+    flex-grow: 0;
+}
+
+.feed-note-wrapper-task[sensei="true"]:has(.sensei-task-buttons-result-container){
+    height:100% !important;
+}

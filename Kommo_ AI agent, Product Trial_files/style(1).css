@@ -1,0 +1,2017 @@
+/* стили для списка процессов в цифровой воронке */
+.sensei-modal .sensei-processes-list {
+    margin-top: 5px; 
+}
+
+.digital-pipeline__sensei-modal .widget_settings_block__fields {
+    margin-top: 0;
+}
+
+.digital-pipeline__sensei-modal .form-group {
+    margin-bottom: 0;
+}
+
+.digital-pipeline__sensei-modal .form-group__title {
+    margin-bottom: 0;
+}
+
+/* стили для обертки лого виджета в сделке */
+.sensei-logo-wrapper {
+    height: 42px !important;
+    background: #920000 !important;
+    margin: -13px -30px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* стили для лого виджета в сделке */
+.sensei-logo-wrapper .sensei-logo {
+    margin-left: 30px;
+    height: 18px;
+}
+
+/* стили для домена в лого в сделке */
+.sensei-logo-wrapper .sensei-logo-domain {
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none !important;
+}
+/* настройки - интеграции - отступ описания от картинок */
+.widget_settings_block .app-for-implementation {
+    margin-top: 16px;
+}
+
+.widget_settings_block .app-for-implementation .app-for-implementation-caption {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.widget_settings_block .app-for-implementation p {
+    margin-bottom: 8px;
+}
+
+.widget_settings_block .app-for-implementation .user-name, 
+.widget_settings_block .app-for-implementation .user-phone, 
+.widget_settings_block .app-for-implementation .user-mail, 
+.widget_settings_block .app-for-implementation .user-comment {
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.widget_settings_block .app-for-implementation .user-comment {
+    margin-bottom: 16px;
+}
+
+/* стили виджета в разделе "интеграции", которые нужно добавлять к описанию виджета до установки */
+.widget_settings_block .textblock {
+    padding: 0px 30px 0px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 20px;
+    margin-top: 23px;
+    line-height: 21px;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.widget_settings_block .textblock.textblock2 {
+    line-height: 23px;
+}
+
+.widget_settings_block .textblock .textblock-caption {
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.widget_settings_block .textblock .how_start_using .textblock-caption {
+    margin-bottom: 10px !important;
+}
+
+.widget_settings_block .textblock .how_start_using__img {
+    width: 593px;
+    height: 215.098px;
+    background-size: cover;
+}
+.widget_settings_block .textblock span {
+    display: block;
+}
+.widget_settings_block .textblock a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.widget_settings_block .textblock-ul {
+    margin-left: 5px;
+}
+.widget_settings_block .textblock-li {
+    list-style-type: disc;
+    margin-top: 5px;
+}
+/**/
+
+.widget_settings_block .footer-info {
+    border-top: 1px solid #d2d7d8;
+    color:#6b6d72;
+    margin-left:-30px;
+    margin-right:-30px;
+    width: 120% !important;
+}
+
+.widget_settings_block .go-to-site {
+    max-height: 38px;
+    padding: 10px;
+    border: 1px solid #dbdedf;
+    border-radius: 3px;
+    color: #2e3640;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* скрываем кнопку в модалке задачи в списке задач */
+.todo-form .sensei-process-elements {
+    display: none;
+}
+
+/* стили для селектора результатов в сделке */
+.feed-note-wrapper.feed-note-wrapper-task .card-task__result-wrapper__inner .sensei-process-elements {
+    margin-right: 8px;
+    height: 38px;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.sensei-process-elements .control--select--list,
+.sensei-process-elements .control--select--list-opened,
+.sensei-process-elements .control--select--list--item {
+    min-width: 255px !important;
+}
+
+.sensei-process-elements .control--select--list {
+    position: relative;
+}
+
+/* стили для элемента "выбрать результат" */
+.feed-note-wrapper.feed-note-wrapper-task .card-task__result-wrapper__inner .sensei-process-elements li[data-value="0"],
+.feed-note-wrapper.feed-note-wrapper-task .card-task__result-wrapper__inner .sensei-process-elements .control--select--button-inner {
+    color: #757575;
+}
+/* стили для кнопки "нет нужного?" в поле "выбрать результат" */
+.sensei-card-task__result-comment:before {
+    content: attr(data-before-content);
+}
+
+.sensei-card-task__result-comment {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #757575;
+    z-index: 99;
+    cursor: pointer;
+}
+.sensei-card-task__result-comment:hover {
+    background-color: #4D81FB;
+    border-color: #4D81FB !important;
+    color: #fff;
+}
+
+/* прячем кнопку удалить для отмеченных сделок */
+.feed-note-wrapper.feed-note-wrapper-task[sensei] .js-note-delete-btn {
+    display: none;
+}
+
+/* запрет редактирования задач */
+.card-task.expanded .task-change-restricted.card-task__inner:active{
+    pointer-events: none;
+}
+
+/* стили для селектора с временем выполнения задачи */
+.sensei-element-edit-form .deadline_select {
+    margin-bottom: 9px;
+}
+
+/* стили для обертки с типами задач */
+.sensei-element-edit-form .task-types-holder {
+    margin-bottom: 9px;
+}
+
+/* стили для селектора с типами задач */
+.sensei-element-edit-form .task-types-holder .task_type_select {
+    width: 100%;
+}
+
+/* стили для поля ввода комментария */
+.sensei-element-edit-form textarea {
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+/* стили для обертки свитчера */
+.sensei-element-edit-form .sensei-switcher-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+/* стили для обертки инпута */
+.sensei-element-edit-form .status {
+    margin-bottom: 9px;
+}
+
+/* стили для обертки списка результатов задачи */
+.sensei-element-edit-form .sensei-task-result-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* стили для результата задачи  */
+.sensei-element-edit-form .sensei-task-result {
+    width: 100%;
+}
+
+/* стили для мусорки */
+.sensei-element-edit-form .delete-sensei-task-result {
+    width: 12px;
+    height: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* стили для селекта результатов нв верхный часте */
+.feed-note-wrapper.feed-note-wrapper-task[sensei] .card-task-wrapper.outside-top.outside:not(.outside-top_last) {
+    z-index: 63!important;
+} 
+
+.feed-note-wrapper.feed-note-wrapper-task[sensei] .card-task-wrapper.outside-top.outside.outside-top_last {
+    z-index: 62!important;
+}
+
+.feed-note-wrapper.feed-note-wrapper-task[sensei] .card-task-wrapper.outside-top.outside .sensei-process-elements .control--select--list-opened {
+    bottom: auto!important;
+    top: 0!important;
+}
+
+.sensei-process-elements .control--select--list-opened {
+    min-width: 240px;
+}
+
+.sensei-process-elements .control--select--button, .sensei-process-elements .control--select--button:after {
+    z-index: 2;
+}
+.sensei-process-elements {
+    z-index: 0;
+}
+
+
+/*** end task ***/
+
+/* Tab */
+
+.sensei_tab.sensei_tab_old {
+    margin-top: -13px;
+}
+
+.sensei_tab .element_detail_wrapper {
+    display: none;
+}
+
+/* Tab content */
+
+.sensei_tab_content {
+    padding: 17px 29px;
+}
+
+.sensei_tab-instances_list {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.sensei_tab-instance_item {
+    display: flex;
+    margin-top: 10px;
+    align-items: baseline;
+}
+
+
+.sensei_tab-subprocess-instance_item {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.sensei_tab-instance_item-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sensei_tab-instance_item-result .sensei_tab-instance_item-title {
+    font-weight: 400;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-right: 14px;
+}
+
+.sensei_tab-subprocess-instance_item .sensei_tab-instance_item-title {
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.sensei_tab-instance_item-preview_link {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    overflow: hidden;
+    min-width: 55%;
+}
+
+.sensei_tab-instance_item-result {
+    margin-left: auto;
+    width: 115px;
+    min-width: 115px;
+    max-width: 115px;
+    text-align: right;
+}
+
+.sensei_tab-instance_item-time {
+    font-size: 14px; color: #aeaeae;
+    white-space: nowrap;
+}
+
+.sensei_tab-process_preview-icon {
+    width: 15px;
+    height: 9px;
+    margin-left: 10px;
+    margin-right: 15px;
+    visibility: hidden;
+}
+
+.sensei_tab-instance_item:hover .sensei_tab-process_preview-icon {
+    visibility: visible;
+}
+
+.sensei_tab-completed_instances_list-header {
+    margin-bottom: 15px;
+    color: #759f40;
+    font-weight: bold; font-size: 12px;
+}
+
+.sensei_tab_content .not-exist-intances-label {
+    color: #848c90;
+    margin-bottom: 16px;
+}
+
+.sensei-start_process_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #4285f4;
+}
+
+.sensei-start_process_buttons-item {
+    align-items: center;
+    border: 1px solid #4285f4;
+    border-radius: 14px;
+    padding: 4px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.sensei-start_process_buttons-item-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.sensei-process_settings-button {
+    align-items: center;
+    min-width: 5px;
+    border: 1px solid #4285f4;
+    border-radius: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sensei-process_settings-button.sensei-large-button {
+    padding: 4px 10px;
+}
+
+.sensei-process_settings-button.sensei-large-button img {
+    margin-right: 5px;
+}
+
+.sensei-process_settings-button.sensei-small-button {
+    border: 1px solid #c7c7c7;
+    padding: 3px 7px;
+    height: 29px;
+}
+
+/* Processes buttons modal */
+
+.sensei-process_buttons-edit-modal .modal-body {
+    position: relative;
+    padding-bottom: 39px;
+    width: 1011px;
+    color: var(--palette-text-primary);
+}
+
+.with-advisor .modal-body {
+    width: 1298px;
+}
+
+.sensei-processes_buttons-modal-item {
+    display: flex;
+    align-items: start;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.sensei-processes_buttons-modal-sort_handle {
+    display: flex;
+    padding: 8px 3px 0px 2px;
+    cursor: move;
+    align-self: stretch;
+}
+
+.sensei-error-border {
+    border: 1px solid #f37575;
+}
+
+.sensei-processes_buttons-modal-name {
+    width: 170px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    height: 34px;
+}
+
+.sensei-processes_buttons-modal-piplines_select {
+    z-index: 1;
+    height: 34px;
+    width: 255px;
+}
+
+.sensei-processes_buttons-modal-input_error_text {
+    display: none;
+    padding-top: 5px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #f37575;
+}
+
+/* Убираем ненужную рамку на свернутых селектах*/
+.sensei-processes_buttons-modal-piplines_select .pipeline-select__pipeline-input[checked]+.pipeline-select .pipeline-select__dropdown {
+    border: 1px solid transparent;
+}
+
+.sensei-processes_buttons-modal-item .sensei-processes-list {
+    width: 255px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.sensei-processes_buttons-modal-item .sensei-processes-list-advisor {
+    width: 255px;
+    height: 34px;
+}
+
+.sensei-processes_buttons-modal-item .js-remove-button {
+    padding: 0 0 0 3px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.sensei-processes_buttons-modal-add_button {
+    background: var(--palette-background-primary);
+    padding: 8px 8px 7px 9px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 100;
+    letter-spacing: +.3px;
+    color: var(--palette-text-secondary-light);
+    fill: #92989b;
+}
+
+.sensei-processes_buttons-modal-add_button svg {
+    margin-left: -1px;
+    margin-right: 6px;
+    width: 11px;
+    height: 11px;
+}
+
+/* Process previewer */
+
+#sensei-previewer {
+    width: 100%;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.sensei-previewer-modal .modal-body {
+    display: flex;
+    width: -webkit-calc(100% - 50px);
+    width: calc(100% - 50px);
+    height: -webkit-calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin-bottom: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+/* Модалка заполнения полей */
+
+.sensei-fill_fields-modal .modal-body {
+    width: 45%;
+    max-width: 680px;
+    min-width: 520px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields {
+    overflow-y: visible;
+    max-width: 100%;
+}
+
+.sensei-fill_fields-modal .linked-form__field-textarea textarea {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+/* скрываем синию полосу в случае, если добавляем контакт через форму */
+.sensei-fill_fields-modal .card-holder__fields .linked-form__field__value-name {
+    padding-left: 0;
+    height: auto;
+}
+
+/* установка ограничения поля в три строчки и поле заканчивается троеточием */
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__label,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select .control--select--list-opened
+.control--select--list--item .control--select--list--item-inner,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown_index .checkboxes_dropdown__list
+.checkboxes_dropdown__list__wrapper__inner
+.placement_checkboxes_dropdown__list__wrapper__inner
+.checkboxes_dropdown__item .checkboxes_dropdown__label
+.placement_checkboxes_dropdown__item .checkboxes_dropdown__label
+.checkboxes_dropdown__label_title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    height: auto;
+    word-break: break-word;
+    font-size: 16px;
+    width: calc(100% - 25px);
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown_index .checkboxes_dropdown__list
+.checkboxes_dropdown__list__wrapper__inner
+.placement_checkboxes_dropdown__list__wrapper__inner
+.checkboxes_dropdown__item .checkboxes_dropdown__label
+.placement_checkboxes_dropdown__item .checkboxes_dropdown__label
+.checkboxes_dropdown__label_title {
+    margin-top: -1px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__label,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select .control--select--list-opened
+.control--select--list--item .control--select--list--item-inner {
+    line-height: 20.7px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown_index .checkboxes_dropdown__list
+.checkboxes_dropdown__list__wrapper__inner
+.placement_checkboxes_dropdown__list__wrapper__inner
+.checkboxes_dropdown__item .checkboxes_dropdown__label
+.placement_checkboxes_dropdown__item .checkboxes_dropdown__label
+.control-checkbox__body {
+    align-self: flex-start;
+    margin-top: 1px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select .control--select--list-opened
+.control--select--list--item-selected .control--select--list--item-inner {
+    background-position: 8px 7.5px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__label {
+    margin-bottom: 11px;
+    min-width: 199px;
+    width: 38.37%;
+
+    flex-shrink: 0;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select .control--select--button
+.control--select--button-inner,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title-selected-advisor
+.checkboxes_dropdown__title
+.checkboxes_dropdown__title-item
+.checkboxes_dropdown__title-item-advisor {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 20.7px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title-selected-advisor
+.checkboxes_dropdown__title
+.checkboxes_dropdown__title-item
+.checkboxes_dropdown__title-item-advisor {
+    padding-right: 20px;
+    width: fit-content;
+    max-width: calc(100% - 12px);
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select .control--select--button,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select {
+    height: auto;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.linked-form__select {
+    padding-bottom: 10px;
+}
+
+.sensei-fill_fields-modal .modal-body
+.webhooks-edit-modal__caption {
+  margin-bottom: 20px;
+  font-size: 19px;
+  line-height: 24.59px;
+}
+
+.sensei-fill_fields-modal
+.card-holder__fields.webhooks-edit-modal__body
+.linked-form__field
+.linked-form__field__value
+.checkboxes_dropdown {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.sensei-fill_fields-modal
+.card-holder__fields .linked-form__field__value {
+    flex-shrink: 1;
+}
+
+.sensei-fill_fields-modal .card-holder__fields .card-budget {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected,
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title .checkboxes_dropdown__title-item {
+    max-width: 100%;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper {
+    width: fit-content;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected {
+    width: fit-content;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title {
+    max-width: calc(100% - 20px);
+    padding-right: 20px;
+    position: relative;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title::after {
+    border-bottom: 1px solid var(--palette-text-secondary-light);
+    border-right: 1px solid var(--palette-text-secondary-light);
+    content: "";
+    height: 6px;
+    margin-left: 7px;
+    position: absolute;
+    top: 2px;
+    transform: rotate(45deg);
+    width: 6px;
+    right: 5px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title .checkboxes_dropdown__title-item {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: initial;
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title .checkboxes_dropdown__title-item::after {
+    display: none;
+}
+
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field__value .text-input:not(.sensei_input_find_select) {
+    height: 20.7px;
+    width: 100%;
+    max-width: none;
+}
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field__value .text-input:not(.sensei_input_find_select),
+.superfield-show-list.sensei-fill_fields-modal .linked-form__field.linked-form__field-text
+.linked-form__field__value .text-input {
+    font-size: 16px;
+}
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field__value a.linked-form__field__link.linked-form__field__link_name {
+    width: 100%;
+}
+
+.card-holder__fields.webhooks-edit-modal__body + .new-integration-modal__caption-btns {
+    flex-shrink: 0;
+    margin-top: 19px;
+}
+
+.sensei-fill_fields-modal .modal-body {
+    padding-top: 27px;
+    padding-right: 80px;
+}
+
+.card-holder__fields.webhooks-edit-modal__body
+.linked-form__field>.linked-form__field__value
+.control--select--button:after,
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown .checkboxes_dropdown__title_wrapper
+.checkboxes_dropdown__title-selected
+.checkboxes_dropdown__title-selected-advisor
+.checkboxes_dropdown__title
+.checkboxes_dropdown__title-item:first-child:after
+.checkboxes_dropdown__title-item-advisor:first-child:after {
+    content: none;
+}
+
+.card-holder__fields.webhooks-edit-modal__body
+.linked-form__field .control--select:not(.card-cf-lead-status-select):not(.pipeline_leads__quick_statuses):not(.control-address__select)
+.control--select--button:focus:before {
+    content: none;
+}
+
+.card-holder__fields.webhooks-edit-modal__body
+.linked-form__field>.linked-form__field__value
+.control--select--button {
+    padding-right: 20px;
+}
+
+.bracket {
+    display: block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 6px);
+    right: 6px;
+    border-right: 1px solid #848c90;
+    border-bottom: 1px solid #848c90;
+    transform: rotate(45deg);
+    margin-left: 7px;
+    z-index: 5;
+}
+
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field .linked-form__field__value
+.sensei-text-input-textarea {
+    padding: 0;
+    font-size: 16px;
+    line-height: 20.7px;
+}
+
+.sensei-fill_fields-modal .card-holder__fields.webhooks-edit-modal__body
+.linked-form__field .linked-form__field__value
+.sensei-text-input-textarea:focus {
+    border-bottom: 1px solid var(--edit_border_color);
+}
+
+.sensei-fill_fields-modal .card-holder__fields
+.linked-form__field .linked-form__field__value
+.checkboxes_dropdown_index .checkboxes_dropdown__list
+.checkboxes_dropdown__list__wrapper__inner
+.placement_checkboxes_dropdown__list__wrapper__inner
+.checkboxes_dropdown__item
+.placement_checkboxes_dropdown__item
+.checkboxes_dropdown__label:hover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjU1QURBQzVCQTg0MjExRTNCNjlDQ0QzMjMzMDlFNkM3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjU1QURBQzVDQTg0MjExRTNCNjlDQ0QzMjMzMDlFNkM3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTVBREFDNTlBODQyMTFFM0I2OUNDRDMyMzMwOUU2QzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTVBREFDNUFBODQyMTFFM0I2OUNDRDMyMzMwOUU2QzciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5J7CMRAAAAEElEQVR42mJ49uxZA0CAAQAImwMzvNrWhAAAAABJRU5ErkJggg==)
+}
+
+.superfield-show-list > .modal-overlay--filled {
+    background: transparent;
+}
+.superfield-show-list.sensei-fill_fields-modal .linked-form__field.linked-form__field-text .linked-form__field__value .text-input {
+    height: 20.7px;
+}
+
+/* Стили для определения времени в модалке задачи */
+.sensei-fill_deadline-modal .modal-body{
+    padding: 30px!important;
+}
+
+.sensei-fill_deadline-modal .modal-body #feed_compose_user .feed-compose-user{
+    cursor: text!important;
+}
+
+.sensei-fill_deadline-modal .modal-body .card-task__type-wrapper_sensei .task-type-name-with-icon__text{
+    margin-left: -3px;
+} 
+
+/* Советник */
+.sensei-helper-logo {
+    background: #1d1f25;
+}
+
+.sensei-helper-logo .card-widgets__widget__caption__logo{
+    height: 25px!important;
+    margin-top: 5px!important;
+    margin-left: 16px!important;
+}
+
+.sensei-helper-logo .card-widgets__widget__caption__logo_min{
+    height: 42px!important;
+    width: 42px!important;
+    padding-top: 0px!important;
+    padding-left: 11px!important;
+}
+
+.card-widgets__widget-sensei-helper-block .card-widgets__widget__body{
+    padding: 0;
+
+    background-color: var(--sensei-advisor-backgroud) !important;
+}
+
+.card-widgets__widget-sensei-helper-block .card-widgets__widget__body #sensei-helper{
+    max-height: 300px;
+    overflow-y: auto;
+
+    color: var(--palette-text-primary);
+}
+
+.card-widgets__widget-sensei-helper-block #sensei-helper .sensei-helper_no-content-text{
+    color: var(--sensei-advisor-no-buttons-color);
+    display: block;
+    padding-bottom: 10px; 
+}
+
+.card-widgets__widget-sensei-helper-block #sensei-helper .sensei-helper_no-content-link{
+    text-align: center;
+    color: #4285f4;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+    min-width: 5px;
+    border: 1px solid #4285f4;
+    border-radius: 14px;
+    padding: 4px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 6px; 
+}
+
+/*Task */
+.modal.modal-list.modal-todo[sensei="true"] .todo-form .card-task__result-wrapper {
+    display: none!important;
+}
+
+/* выключаем обработчики */
+.events-off {
+    pointer-events: none;
+}
+
+.sensei-dynamic-segment-modal .modal-body > *:not(button) {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.sensei-dynamic-segment-modal .modal-body .sensei-segment-name {
+    border-bottom: 1px solid #4c8bf7;
+    font-size: 23px;
+    width: 100%;
+    padding-bottom: 2px;
+    letter-spacing: -.8px;
+    color: var(--palette-text-primary);
+    line-height: unset;
+    margin-right: 20px;
+}
+
+.sensei-dynamic-segment-modal .modal-body .sensei-segment-name::placeholder {
+    color: #AEB1B7;
+}
+
+.sensei-mr-10 {
+    margin-right: 10px;
+}
+
+.sensei-ml-10 {
+    margin-left: 10px;
+}
+
+.sensei-mw-0 {
+    min-width: 0;
+}
+
+.sensei-ta-c {
+    text-align: center;
+}
+
+.sensei-bb-grey {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.sensei-fs-0 {
+    flex-shrink: 0;
+}
+
+.sensei-w-50 {
+    width: 50%;
+}
+
+.sensei-mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.sensei-d-b {
+    display: block;
+}
+
+.sensei-d-f {
+    display: flex;
+}
+
+.sensei-mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.sensei-d-n {
+    display: none !important;
+}
+
+#sensei-save-widget {
+    margin-left: 0;
+}
+
+.sensei-position-static {
+    position: static;
+}
+
+.sensei-font-color-black {
+    color: var(--palette-text-primary) !important;
+}
+
+.sensei-font-color-grey {
+    color: #757575 !important;
+}
+
+.sensei-margin-bottom {
+    margin-bottom: 10px !important;
+}
+
+.sensei-zero-padding {
+    padding: 0 !important;
+}
+
+.sensei-margin-top {
+    margin-top: -14px !important;
+}
+
+.sensei-mb-20 {
+    margin-bottom: 0;
+}
+
+.sensei-segment-date-filter-field-id button[disabled="Y"]::after {
+    border-bottom: 1px solid #b3b6bd;
+    border-right: 1px solid #b3b6bd;
+}
+
+.sensei-nav__menu__item .nav__menu__item__icon-integration__img {
+    display: none;
+}
+
+.sensei-nav__menu__item .nav__menu__item__icon {
+    width: 32px;
+    height: 31px;    
+}
+
+.sensei-nav__menu__item .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_disabled.svg);
+}
+
+.sensei-nav__menu__item:not(.nav__menu__item-selected):hover .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_disabled_hover.svg);
+}
+
+.sensei-nav__menu__item.nav__menu__item-selected .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_enabled.svg);
+}
+
+.sensei-nav__menu__item.nav__menu__item-selected .nav__menu__item__link {
+    color: var(--sensei-nav_menu_color);
+}
+
+.sensei-nav__menu__item.nav__menu__item-selected .nav__menu__item__title {
+    background: var(--sensei-nav__menu__item__title-background);
+    border: 1.2px solid var(--sensei-nav__menu__item__border-color);
+}
+
+.sensei-nav__menu__item:not(.nav__menu__item-selected) .nav__menu__item__title {
+    background: var(--sensei-nav__menu__item__title-background);
+    border: 1.2px solid var(--sensei-nav__menu__item__border-color);
+}
+
+.sensei-nav__menu__item:hover .nav__menu__item__title {
+    background: var(--sensei-nav__menu__item__title-background);
+    border: 1.2px solid var(--sensei-nav__menu__item__border-color);
+}
+
+.sensei-nav__menu__item .nav__menu__item__title {
+    background: var(--sensei-nav__menu__item__title-background);
+    border: 1px solid #6D8C9D;
+    padding: 3px 0px 2px;
+    width: 55px;
+    border-radius: 4px;
+}
+.sensei-nav__menu__item:hover .nav__menu__item-selected-fake .nav__menu__item__title, html.no-touch .nav__menu__item:hover .nav__menu__item__title, html.touch .nav__menu__item:active .nav__menu__item__title {
+    color: var(--sensei-nav_menu_color);
+}
+
+.sensei-nav__menu__item .nav__menu__item-selected-fake .nav__menu__item__title, html.no-touch .nav__menu__item:hover .nav__menu__item__title, html.touch .nav__menu__item:active .nav__menu__item__title {
+    color: var(--sensei-nav_menu_color);
+}
+.feed-note-wrapper.feed-note-wrapper-task .card-task-wrapper.outside-top.outside {
+    position: absolute !important;
+    z-index: 61;
+}
+
+.sensei-role-mode-on #card_holder {
+    top: 65px;
+}
+
+.sensei-role-mode-on #widgets_block {
+    top: 65px;
+}
+
+.sensei-role-mode-on #page_holder {
+    top: 65px;
+}
+
+.sensei-role-mode-on #list_page_holder .list__body-right__top {
+    top: 65px;
+}
+.sensei-role-mode-on .dashboard-main-bg {
+    top: 65px;
+}
+
+.sensei-role-mode-on #sidebar {
+    top: 65px;
+}
+
+.sensei-role {
+    height: 64px;
+    background: var(--palette-background-primary);
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 65px;
+    z-index: 102;
+    border-bottom: 1px solid var(--palette-border-primary);
+    padding-left: 29px;
+    padding-right: 29px;
+    top: 0;
+}
+
+.sensei-role > div {
+    padding: 14px 21px 12px 21px;
+    border-right: 1px solid var(--palette-border-primary);
+}
+
+.sensei-role .sensei-role-title {
+    padding-left: 0;
+}
+
+.sensei-role .sensei-role-title .sensei-role-param-key {
+    font-weight: bold;
+}
+
+.sensei-role .sensei-role-tasks-left,
+.sensei-role .sensei-show-prev-lead {
+    border: 0;
+}
+
+.sensei-role .sensei-role-tasks-left {
+    padding-right: 10px;
+}
+
+.sensei-role .sensei-role-time-left {
+    padding-left: 10px;
+}
+
+.sensei-role > div span {
+    display: block;
+}
+
+.sensei-role .sensei-show-next-lead {
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    border-left: 1px solid var(--palette-border-primary);
+    border-right: 0;
+}
+.sensei-role .sensei-show-next-lead .sensei-next-lead-data {
+    margin-right: 20px;
+    max-width: 165px;
+}
+
+.sensei-role .sensei-show-next-lead .sensei-role-param-value {
+    display: flex;
+    align-items: center;
+}
+.sensei-role-param-icon {
+    margin-right: 4px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sensei-role .sensei-show-next-lead .sensei-role-param-subvalue {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.sensei-role .sensei-role-param-key {
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--sensei-workplaces-role-key);
+    margin-bottom: 2px;
+}
+
+.sensei-role .sensei-show-next-lead .sensei-role-param-key {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sensei-role .sensei-role-param-value {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.sensei-element-field_field-error-text {
+    font-size: 13px;
+    color: #f37575;
+}
+
+.sensei-mt-20 {
+    margin-top: 20px;
+}
+
+.sensei-role .sensei-role-time-left {
+    margin-right: auto;
+}
+
+.sensei-salesbot__process-select {
+    width: 100%;
+}
+
+.sensei-salesbot__custom-logo {
+    display: flex;
+    height: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sensei-salesbot__body {
+    margin-left: -23px;
+}
+
+/* disabled-варианты во всех селектах модалок сенсея (кроме элементов) */
+.sensei-modal .control--select--list--item[data-disabled="disabled"],
+.digital-pipeline__sensei-modal .control--select--list--item[data-disabled="disabled"],
+.sensei-process_buttons-edit-modal .control--select--list--item[data-disabled="disabled"]{
+    cursor: default;
+    background-color: white !important;
+}
+.sensei-modal .control--select--list--item[data-disabled="disabled"]::before,
+.digital-pipeline__sensei-modal .control--select--list--item[data-disabled="disabled"]::before,
+.sensei-process_buttons-edit-modal .control--select--list--item[data-disabled="disabled"]::before {
+    background-color: white !important;
+    background-image: none !important;
+}
+
+
+
+/* модалка создания комментария в карточке сделки */
+.sensei-modal-comment {
+
+}
+.sensei-modal-comment-base {
+    display: flex;
+    flex-direction: column;
+}
+.sensei-modal-comment-h2 {
+    font-size: 19px;
+    line-height: 25px;
+    color: var(--palette-text-primary);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.sensei-modal-comment-p {
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--palette-text-primary);
+    width: 100%;
+    margin-top: 15px;
+}
+.sensei-modal-comment-textarea {
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--palette-text-primary);
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    resize: none;
+    width: 100%;
+    height: 88px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.sensei-modal-comment-textarea-error {
+    border-color: #f37575;
+}
+.sensei-modal-comment-error {
+    font-size: 13px;
+    line-height: 19px;
+    color: #f37575;
+    width: 100%;
+    margin-top: 10px;
+}
+.sensei-modal-comment-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.sensei-modal-comment-buttons,
+.sensei-modal-comment-logo {
+    background: transparent;
+}
+.sensei-modal-comment-logo path:first-child {
+    fill: var(--palette-text-primary);
+}
+.sensei-modal-comment-save {
+    background-color: #fff;
+}
+.sensei-modal-comment-cancel {
+    margin-left: 17px;
+}
+
+/* исправления для корректного отображения данных из элемента Assistant */
+#sensei-helper p {
+    line-height: 1 !important;
+    margin: 0 0 10px;
+}
+
+#sensei-helper b,
+#sensei-helper i,
+#sensei-helper strong,
+#sensei-helper em {
+    font: revert;
+}
+
+#sensei-helper ol {
+    list-style-position:inside;
+    list-style-type: auto !important;
+}
+
+#sensei-helper ul {
+    list-style-position: inside;
+    list-style-type: disc !important
+}
+
+#sensei-helper li {
+    padding-inline-start: 20px;
+    direction: ltr;
+}
+
+#sensei-helper table td,
+#sensei-helper table th {
+    padding: 5px 3px;
+    border: 1px solid #ececec;
+}
+
+.sensei-badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+/* Sensei Buttons: Multiselect */
+.sensei-multiselect {
+    margin: 0 0 0 10px;
+    margin-top: 0;
+}
+
+.placement-sensei-multiselect-title-wrapper,
+.sensei-multiselect-title-wrapper {
+    padding: 8px 0 9px 10px;
+    background: var(--palette-background-primary);
+    border: 1px solid var(--palette-border-default);
+}
+
+.sensei-checkbox-group-title {
+    font-weight:700;
+    padding-left: 3px !important;
+}
+
+.sensei-checkbox-group-title {
+    background-color: #99ccff;
+}
+
+.sensei-checkbox-group-title .element__text {
+    font-size: 12px;
+    font-family: 'PT Sans Caption','Arial Black',sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.sensei-checkbox-group-title[chosen="1"] {
+    background-color: rgb(186, 216, 242);
+}
+
+.sensei-checkbox-group-title .sensei-badge {
+    border: 1px solid rgb(76, 102, 127);
+    color: rgb(76, 102, 127);
+    font-weight: 400;
+    font-size: 10px;
+    padding: 3px 4px 1px 5px;
+}
+
+.sensei-checkbox-group-title[chosen="1"] .sensei-badge, .sensei-checkbox-group-title:hover .sensei-badge {
+    background-color: rgb(74, 128, 250);
+    color: white;
+    border: 1px solid rgb(74, 128, 250);
+}
+
+.sensei-checkboxes-dropdown-title,
+.sensei-checkboxes-dropdown-title-advisor {
+    color: var(--palette-text-secondary-light);
+}
+
+.sensei-multiselect-checkbox-minus {
+    top: 6px !important;
+}
+
+.sensei-multiselect-checkbox {
+    padding-left: 10px !important;
+}
+
+.sensei-multiselect-checkbox span{
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.sensei-multiselect .icon-up-arrow {
+    display: none;
+}
+
+/* kimskii: Rollback modal */
+.sensei-rollback-modal .modal-body {
+    position: relative;
+    width: 500px;
+    color: var(--palette-text-primary);
+}
+
+.sensei-rollback-modal .modal-body__caption {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 19px;
+}
+
+.sensei-rollback-modal .webhooks-edit-modal__description {
+    margin-bottom: 8px;
+    color: var(--palette-text-primary);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sensei-rollback-modal .webhooks-edit-modal__description_continue {
+    margin-bottom: 22px;
+}
+
+.sensei_rollback-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.sensei_rollback-icon:hover svg path {
+    fill: #6B6D72;
+}
+
+.sensei_rollback-form-icon {
+    position: absolute;
+    bottom: 38px;
+    right: 30px;
+    cursor: pointer;
+    color: #B1B1B1;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sensei_rollback-form-icon svg {
+    transform: translateY(2px);
+}
+
+.sensei_rollback-form-icon:hover {
+    color: #6B6D72;
+}
+
+/*
+    Фикс перекрытия плашки Амо, тулбаром сенсея в дашбордах
+*/
+:is(body.sensei-role-mode-on) #dashboard_intro .dashboard-settings__topbar {
+    top: 65px;
+}
+
+/*
+    Фикс перекрытия суперлога плашкой сенсея
+*/
+:is(body.sensei-role-mode-on) #dashboard_holder .dashboard-superlog {
+    top: 65px;
+}
+
+/*
+    Фикс перекрытия почты плашкой сенсея
+*/
+:is(body.sensei-role-mode-on) .content__card-holder-mail_thread {
+    top: 65px;
+}
+
+.card-holder__scripts {
+    max-height: 70vh;
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px 10px 10px 15px;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.form-result__script {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D3641;
+}
+
+.script-form__textarea {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    color: #313942;
+    position: relative;
+}
+
+.linked-form__select {
+    padding-top: 5px;
+}
+
+.linked-form__script__label {
+    padding: 7px;
+    margin-right: 5px;
+    color: #B3B6BC;
+}
+
+.linked-form__field-script-text {
+    margin: 10px 0;
+}
+.script-form__field {
+    border: 1px solid #DADEDF;
+    border-radius: 2px;
+}
+
+.script-form__field-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #DADEDF;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.script-form__field-date_time, .script-form__field-date {
+    border: 1px solid #DADEDF;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 300px;
+}
+
+.sensei-radio {
+    display: flex;
+}
+
+.sensei-radio .sensei-radio__icon-container {
+    position: relative;
+    margin-right: 10px;
+
+    display: inline-flex;
+    align-items: center;
+}
+
+.sensei-radio .sensei-radio__icon-container > input {
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 2;
+}
+
+.sensei-radio .sensei-radio__icon-container .sensei-radio__icon {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    background: var(--palette-background-primary);
+    border: 1px solid var(--sensei-dynseg_radio_button_border);
+    border-radius: 8px;
+}
+
+.sensei-radio .sensei-radio__icon-container input:checked ~ .sensei-radio__icon {
+    border: 1px solid #516873;
+}
+
+.sensei-radio .sensei-radio__icon-container input:checked ~ .sensei-radio__icon::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #4C81FB;
+    border-radius: 3px;
+    left: 4px;
+    top: 4px;
+}
+
+.sensei-radio .sensei-radio__text {
+    display: inline-block;
+}
+
+.sensei-underlined-input {
+    border-bottom: 1px solid var(--palette-border-default);
+    padding: 0px 1px;
+    color: var(--sensei-dynseg_value_text);
+}
+
+.sensei-underlined-input.right {
+    text-align: right;
+}
+
+.sensei-underlined-date-picker.date_field,
+.sensei-underlined-date-picker > .date_field {
+    border: 0;
+    padding: 0;
+    padding-left: 17px;
+    text-decoration: underline;
+    font-size: 14px;
+    width: 100px;
+    color: var(--sensei-dynseg_value_text);
+    background: transparent;
+}
+
+.sensei-underlined-date-picker.date_field.empty,
+.sensei-underlined-date-picker > .date_field.empty,
+.sensei-underlined-date-picker.date_field::placeholder,
+.sensei-underlined-date-picker > .date_field::placeholder {
+    color: var(--sensei-dynseg_select_text);
+    text-decoration-color: var(--sensei-dynseg_select_text);
+}
+
+.sensei-underlined-date-picker .date_field_wrapper--calendar,
+.sensei-underlined-date-picker ~ .date_field_wrapper--calendar {
+    left: 0;
+    fill: var(--sensei-dynseg_select_text);
+}
+
+.sensei-underlined-date-picker .tasks-date__caption__icon {
+    display: none;
+}
+
+.sensei-underlined-date-picker > input {
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+.sensei-alert-modal .modal-body {
+    width: 560px;
+}
+
+.sensei-alert-modal .modal-body__inner-error .modal-body__caption-error {
+    color: #DA8089;
+    argin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#system_node_sensei_logo {
+    color:#545454;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.logo-sensei__position {
+    position: absolute;
+    top: 100%;
+    left: 93%
+}
+
+.logo-sensei__description_color {
+    color: #3F4851;
+}
+.task-modal__description {
+    color: #92989b;
+    line-height: 19px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin-top: 10px
+}
+
+.task-modal__description a {
+    color: #92989b;
+}
+
+.sensei-process-start-modal .sensei-start-modal-mode-select.sensei-underlined-select .control--select--list-opened {
+    left: 0;
+    width: 160px;
+    top: 1.4em;
+    font-size: 15px;
+}
+
+.sensei-process-start-modal .sensei-process-stop-close-tasks {
+    margin-top: 10px;
+}
+
+.sensei-process-start-modal .sensei-process-stop-close-tasks.hidden {
+    display: none;
+}
+
+.sensei-process-start-modal .modal-body__actions {
+    margin-top: 20px;
+}
+
+.sensei-process-start-modal .sensei-process-start-save-button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sensei-process-start-modal.modal .modal-scroller {
+    margin-left: 65px;
+}
+
+.support_chat .js-notifications_counter {
+    top: 35%;
+    right:10px;
+}
+
+.sensei-helper-wrapper {
+    padding: 20px 15px 20px 15px;
+    color: #373B43;
+}
+
+.sensei-advisor-buttons {
+    border-top: 1px solid var(--sensei-advisor-buttons-border);
+}
+
+.sensei-advisor-buttons .sensei-start_process_buttons {
+    margin-bottom: 0px;
+}
+
+.sensei-advisor-header {
+    line-height: 19px;
+    margin-bottom: 8px;
+    color: #363b44; 
+}
+
+.no-buttons-div {
+    color: var(--palette-text-primary);
+}
+
+.sensei-helper_no-buttons-text {
+    color: var(--sensei-advisor-no-buttons-color);
+    display: block;
+    margin-top: 15px;
+}
+
+body:has(#widget_page_sidebar) .content__top__preset__caption {
+    display: none !important;
+}
+
+.icon-amo_sensei,
+.icon-sensei_en,
+.icon-sensei_local,
+.icon-sensei_test {
+    background-image: url(images/multi_actions_sensei_icon.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    margin-left: -6px;
+    position: relative;
+}
+
+.list-contacts .icon-amo_sensei,
+.list-contacts .icon-sensei_en,
+.list-contacts .icon-sensei_local,
+.list-contacts .icon-sensei_test {
+    background-image: url(images/multi_actions_robocode_icon.png);
+}
+
+.tips-item[data-id="sensei_local"],
+.tips-item[data-id="amo_sensei"],
+.tips-item[data-id="sensei_en"],
+.tips-item[data-id="sensei_test"] {
+    min-width: 153px;
+    font-size: 0;
+    color: transparent;
+}
+
+.icon-amo_sensei::after,
+.icon-sensei_en::after,
+.icon-sensei_local::after,
+.icon-sensei_test::after {
+    content: "SENSEI";
+    position: absolute;
+    left: 26px;
+    top: -2px;
+    width: 100px;
+    font-size: 15px;
+    color: var(--palette-text-primary);
+}
+
+.list-contacts .icon-amo_sensei::after,
+.list-contacts .icon-sensei_en::after,
+.list-contacts .icon-sensei_local::after,
+.list-contacts .icon-sensei_test::after {
+    content: "Robocode";
+}
+
+.sensei-field-remove-modal-usage-info {
+    margin-top: -15px;
+}
+
+.sensei-field-remove-modal-description {
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.sensei-field-usage-info .sensei-field-remove-modal-description {
+    padding-bottom: 0;
+}
+
+.sensei-field-remove-modal-list-name {
+    color: var(--sensei-field-remove-modal-list-name-color);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 92.308% */
+    letter-spacing: 0.91px;
+    text-transform: uppercase;
+
+    margin-bottom: 13px;
+}
+
+.sensei-field-remove-modal-list-item {
+    height: 16px;
+
+    display: flex;
+    gap: 1px;
+
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: var(--sensei-field-remove-modal-list-item-color);
+}
+.sensei-field-remove-modal-list-item-text {
+    max-width: 100%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    flex-shrink: 1;
+
+    line-height: 1;
+}
+
+.sensei-field-remove-modal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sensei-field-remove-modal-list-more {
+    color: var(--blue-main, #4C81FB);
+
+    /* sensei button */
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    cursor: pointer;
+    user-select: none;
+
+    margin-top: -15px;
+}
+
+.sensei-field-remove-modal-buttons {
+    margin-top: 30px;
+    gap: 5px;
+}
+.sensei-field-remove-modal-buttons button {
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+
+.sensei-field-remove-modal-list-item-link {
+    height: 16px;
+    
+    vertical-align: -4px;
+
+    flex-shrink: 0;
+}
+
+.sensei-block-loading::after {
+    animation: nprogress-spinner .9s linear infinite;
+    border-color: var(--sensei-block-loading-color) transparent transparent var(--sensei-block-loading-color);
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 2px;
+    content: "";
+    display: block;
+    height: 16px;
+    left: calc(50% + 65px);
+    left: calc((100% - var(--aside-width))/2 + 165px);
+    margin-left: -8px;
+    margin-top: -8px;
+    position: fixed;
+    top: 50%;
+    transition: left .5s;
+    transition: left var(--aside-transition);
+    width: 16px;
+    z-index: 1002;
+    z-index: calc(var(--modal-z-index) + 2)
+}
+
+@keyframes nprogress-spinner {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@media (max-width: 1279px) {
+    .sensei-block-loading::after {
+        left: calc((100% - var(--aside-width))/2 + 65px);
+    }
+}
+
+body:not(:has(#nav_menu)) a[href="/widget_page/sensei_locale_en/left_menu"] div:has(> img),
+body:not(:has(#nav_menu)) a[href="/widget_page/amo_sensei_en/left_menu"] div:has(> img) {
+    background-color: transparent;
+}
+
+body:not(:has(#nav_menu)) a[href="/widget_page/sensei_locale_en/left_menu"] img,
+body:not(:has(#nav_menu)) a[href="/widget_page/amo_sensei_en/left_menu"] img {
+    height: 15px;
+    width: 18px;
+}
+
+.sensei-nav__menu__item a.sensei_kommo_classic_menu_item .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_default_disabled.svg);
+}
+
+.sensei-nav__menu__item:not(.nav__menu__item-selected):hover a.sensei_kommo_classic_menu_item .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_default_disabled_hover.svg);
+}
+
+.sensei-nav__menu__item.nav__menu__item-selected a.sensei_kommo_classic_menu_item .nav__menu__item__icon:before {
+    background-image: url(./images/leftmenu_icon_default_enabled.svg);
+}

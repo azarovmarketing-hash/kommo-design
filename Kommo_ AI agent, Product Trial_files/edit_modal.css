@@ -1,0 +1,181 @@
+.sensei-dynseg2-modal .modal-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sensei-dynseg2-modal .modal-header__name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.sensei-dynseg2-modal .sensei-segment-name {
+    padding: 0;
+    border: 0;
+    background: 0;
+    border-radius: 0;
+
+    border-bottom: 1px solid #4c8bf7;
+    font-size: 25px;
+    width: 250px;
+    color: var(--palette-text-primary);
+    line-height: auto;
+    
+}
+.sensei-dynseg2-modal.create-mode .sensei-segment-name {
+    color: var(--color-onyx);
+}
+
+.sensei-dynseg2-modal .sensei-segment-name.sensei-validation__error {
+    border-bottom: 1px solid #FF5C63;
+}
+
+.sensei-dynseg2-modal .modal-header__buttons {
+    display: flex;
+}
+
+.sensei-dynseg2-edit-modal .modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sensei-dynseg2-edit-modal .modal-content-block {
+    margin-top: 10px;
+    width: 700px;
+    padding: 30px 25px;
+
+    background: var(--palette-background-primary);
+    border-radius: 5px;
+    border: 1px solid var(--palette-border-default);
+    box-shadow: 1px 1px 2px 0 rgb(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__title {
+    line-height: 12px;
+    font-size: 20px;
+    color: var(--palette-text-primary);
+    margin-bottom: 20px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__text {
+    line-height: 19px;
+    font-size: 16px;
+    color: #91989C;
+    margin-bottom: 20px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__title + .modal-content-block__text {
+    margin-top: -5px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__text > p {
+    max-width: 460px;
+    width: max-content;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__text b {
+    font-weight: bold;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__text > p:not(:first-child) {
+    min-height: 19px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    padding-right: 21px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box {
+    display: flex;
+    align-items: flex-start;
+    
+    font-size: 14px;
+    margin-bottom: 10px;
+
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 1px solid var(--palette-border-default);
+    border-radius: 2px;
+    color: var(--sensei-dynseg_param_title);
+    background: var(--palette-background-primary);
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box:last-child {
+    margin-bottom: 0;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box.dashed {
+    border: 1px dashed var(--palette-border-default);
+    color: var(--sensei-dynseg_select_text);
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box.button {
+    cursor: pointer;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box.no-border {
+    border: 0;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box .remove-button-wrapper {
+    position: relative;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: -10px;
+
+    cursor: pointer;    
+    width: 0px;
+    height: 12px;
+}
+
+.sensei-dynseg2-edit-modal .modal-content-block__box .remove-button {
+    position: absolute;
+    left: 10px;
+    width: 11px;
+    height: 12px;
+
+    cursor: pointer;
+}
+
+.sensei-dynseg2-edit-modal .sensei-launch-segment-button {
+    font-size: 16px;
+    color: #4285F4;
+    cursor: pointer;
+}
+
+.sensei-dynseg2-edit-modal .modal-footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.sensei-dynseg2-edit-modal .sensei-remove-segment-button {
+    display: flex;
+    align-items: center;
+    color: #8B9494;
+    cursor: pointer;
+}
+
+.sensei-dynseg2-edit-modal .sensei-remove-segment-button svg {
+    margin-right: 5px;
+}
+
+
+

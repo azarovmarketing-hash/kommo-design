@@ -1,0 +1,66 @@
+.sensei-underlined-select .control--select--button {
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: 0;
+    padding: 0;
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sensei-underlined-select.control--select {
+    height: auto;
+    display: inline-block;
+    width: auto;
+}
+
+.sensei-underlined-select .control--select--list-opened {
+    width: fit-content;
+}
+
+.sensei-underlined-select .control--select--list--item {
+    color: var(--palette-text-primary);
+    padding-right: 15px;
+}
+
+.sensei-underlined-select .control--select--list--item-inner {
+    background-position-x: 0.5em;
+    background-position-y: 0.5em;
+}
+.sensei-start-modal-entity-select .control--select--list--item-inner {
+    text-transform: capitalize;
+}
+.sensei-start-modal-entity-select ul.control--select--list-opened,
+.sensei-start-modal-mode-select ul.control--select--list-opened {
+    font-size: 15px;
+}
+.sensei-start-modal-entity-select.disabled button.control--select--button,
+.sensei-start-modal-mode-select.disabled button.control--select--button {
+    pointer-events: none;
+    text-decoration: none;
+}
+.sensei-start-modal-entity-select button.control--select--button span.control--select--button-inner,
+.sensei-start-modal-mode-select button.control--select--button span.control--select--button-inner {
+    margin-right: 0 !important;
+}
+.sensei-underlined-select .control--select--button::after {
+    display: none;
+}
+
+.sensei-underlined-select .control--select--list-opened {
+    left: 0;
+    top: 1.4em;
+}
+.sensei-tasks-control-select-list-opened {
+    container: sensei-task-list-item / inline-size;
+}
+
+@container sensei-task-list-item (max-width: 250px) {
+    ul.sensei-tasks-control-select-list-opened .control--select--list--item .sensei-card-task__result-comment {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 16c0-2.2 1.8-4 4-4h52c2.2 0 4 1.8 4 4v42c0 2.2-1.8 4-4 4H6c-2.2 0-4-1.8-4-4V16Z"/>
+  <path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M16 2v12M48 2v12M2 24h60"/>
+  <rect x="8" y="30" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+  <rect x="27" y="30" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+  <rect x="46" y="30" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+  <rect x="8" y="46" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+  <rect x="27" y="46" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+  <rect x="46" y="46" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+</svg>

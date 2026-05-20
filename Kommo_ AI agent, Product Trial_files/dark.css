@@ -1,0 +1,35 @@
+:root[data-color-scheme=dark] {
+    --sensei-border-script-modal-input-color: #2F475E;
+    --sensei-script-modal-svg-color: #D3D3D3;
+    --sensei-workplaces-break-on: #30D158;
+    --sensei-workplaces-break-off: #FF4444;
+    --sensei-workplaces-break-tip: #91989B;
+    --sensei-workplaces-role-key: #818BA2;
+    --sensei-nav_menu_color: #8BA0B4;
+    --sensei-nav__menu__item__title-background: rgba(161, 213, 246, 0.3);
+    --sensei-nav__menu__item__border-color: rgba(255, 255, 255, 0.25);
+    --sensei-dynseg_param_title: #8B9494;
+    --sensei-dynseg_value_text: #F2F2F2;
+    --sensei-dynseg_select_text: #818BA2;
+
+    --sensei-dynseg_day_background: var(--palette-background-primary);
+    --sensei-dynseg_selected_day_background: #4B7997;
+    --sensei-dynseg_day_border: #2F475E;
+    --sensei-dynseg_selected_day_border: #96C0E9;
+
+    --sensei-dynseg_radio_button_border: #F2F2F2;
+    --sensei-dynseg_selected_radio_button_border: #516873;
+    
+    --sensei-advisor-backgroud: #162F44;
+    --sensei-advisor-buttons-border: #36546E;
+    --sensei-advisor-no-buttons-color: rgba(242, 242, 242, 0.5);
+
+    --sensei-task-result-color-border-color: transparent;
+
+    --sensei-field-remove-modal-list-name-color: #F2F2F2;
+    --sensei-field-remove-modal-list-item-color: #F2F2F2;
+    
+    --sensei-form-radio-border-color: #c5c5c5;
+
+    --sensei-block-loading-color: #158fd2;
+}

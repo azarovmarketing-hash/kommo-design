@@ -1,0 +1,209 @@
+@import "dp.css";
+@import "searchable_select.css";
+
+#work_area:has(.robocode-sensei-iframe) {
+    height: calc(100vh - 5px);
+    padding: 0;
+}
+
+#work_area .robocode-sensei-iframe {
+    height: 100%;
+}
+
+.modal-body .robocode-sensei-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.modal #robocode_overlay.default-overlay {
+    position: fixed;
+    top: 0;
+    left: 65px;
+    height: 100%;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+}
+.modal-robocode-alert {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 1000 !important;
+    overflow: hidden !important;
+    transform: translate(0%, 0%) !important;
+    width: auto !important;
+}
+
+.modal #robocode_overlay.modal-overlay--filled {
+    background: var(--palette-overlay-background-primary-600);
+}
+
+.robocode-sensei-modal .modal-body {
+    height: 90%;
+    width: 96%;
+    padding: 0;
+}
+
+.sensei-robocode-planner-modal .modal-body__actions {
+    margin-top: 20px;
+}
+.sensei-robocode-planner-modal .modal-body__actions button {
+    padding: 8px 20px 10px 20px;
+    margin: 0;
+}
+.sensei-robocode-planner-modal .modal-body__actions button .button-input-inner__text {
+    line-height: normal;
+}
+
+.sensei-robocode-planner-input-with-label {
+    width: 100%;
+    margin-bottom: 15px;
+
+    font-size: 16px;
+}
+
+.sensei-robocode-planner-label {
+    padding-bottom: 5px;
+}
+
+.sensei-robocode-planner-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin: 0;
+
+    align-items: baseline;
+    border: 1px solid var(--palette-border-default) !important;
+    border-radius: 3px;
+    display: flex
+;
+    flex-wrap: wrap;
+}
+
+.sensei-robocode-planner-run-options {
+    z-index: 5;
+    position: relative;
+}
+
+.sensei-robocode-planner-run-options .sensei-robocode-planner-run-option-date {
+    width: 120px;
+}
+.sensei-robocode-planner-run-option-select-wdith-auto ul {
+    width: auto;
+}
+.sensei-robocode-planner-run-options button.control--select--button {
+    padding: 0;
+}
+.sensei-robocode-planner-run-option-type {
+    margin-right: 5px;
+}
+.sensei-robocode-planner-run-option-type-daily {
+    margin-right: 0;
+}
+.sensei-robocode-planner-run-option-type ul {
+    min-width: 200px;
+}
+
+.sensei-robocode-planner-run-option-multiselect {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.sensei-robocode-planner-run-option-multiselect .checkboxes_dropdown__title_wrapper {
+    padding: 0;
+    margin: 0;
+
+    background: transparent;
+    border: none;
+}
+
+.sensei-robocode-planner-run-option-multiselect .checkboxes_dropdown__title_wrapper label {
+    display: none;
+}
+.sensei-robocode-planner-run-option-multiselect .checkboxes_dropdown__title_wrapper .checkboxes_dropdown_icon {
+    display: none;
+}
+.sensei-robocode-planner-run-option-multiselect .checkboxes_dropdown__title_wrapper .checkboxes_dropdown__title-selected {
+    width: 100%;
+}
+
+.sensei-robocode-planner-run-option-multiselect .checkboxes_dropdown__list {
+    z-index: 10;
+    width: fit-content;
+}
+
+.sensei-robocode-planner-run-option-select {
+    display: inline-block
+}
+
+.sensei-robocode-planner-run-option-select .control--select--button {
+    background: inherit;
+    border: none;
+    padding-left: 0;
+    padding-right: 8px;
+    position: inherit;
+    top: 0;
+    width: inherit
+}
+
+.sensei-robocode-planner-run-option-select .control--select--button .control--select--button-inner {
+    color: var(--robocode-planner-run-options-select-button-color);
+    position: inherit;
+    text-decoration: underline;
+    top: inherit
+}
+
+.sensei-robocode-planner-run-option-select .control--select--button:after {
+    display: none
+}
+
+.sensei-robocode-planner-run-option-select .control--select--list--item {
+    line-height: 20px
+}
+
+.sensei-robocode-planner-run-option-exec-time {
+    display: inline-block;
+    margin: 1px 5px 5px;
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+}
+
+.sensei-robocode-planner-run-option-exec-time[data-time-format="12"] {
+    width: 97px
+}
+
+.sensei-robocode-planner-run-option-exec-time .text-input {
+    height: 29px;
+    padding: 7px 9px
+}
+
+.sensei-robocode-planner-run-option-exec-time .control--suggest--list-opened {
+    line-height: normal
+}
+
+.sensei-robocode-planner-run-options .sensei-robocode-planner-run-option-time-prefix {
+    padding: 0 10px 0 5px;
+}
+.sensei-robocode-planner-run-options .sensei-robocode-planner-run-option-time {
+    z-index: 2;
+    height: 36px;
+    margin: 0;
+}
+.sensei-robocode-planner-run-options .sensei-robocode-planner-run-option-time input {
+    height: 100%;
+}
+.sensei-robocode-planner-modal .sensei-searchable-select__list__item.disabled {
+    font-size: 13px;
+}
+.sensei-robocode-planner-modal-validation-not-valid {
+    border-color: var(--validation_error_bg_color) !important;
+}
+.sensei-robocode-planner-modal-validation-not-valid .sensei-searchable-select__button,
+.sensei-robocode-planner-modal-validation-not-valid .sensei-searchable-select__button .sensei-searchable-select__button__inner::after {
+    border-color: var(--validation_error_bg_color) !important;
+}

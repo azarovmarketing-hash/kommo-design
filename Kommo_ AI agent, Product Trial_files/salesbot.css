@@ -1,0 +1,20 @@
+.sensei-salesbot__body .control-checkbox__helper {
+    width: 20px;
+    height: 20px;
+}
+
+.sensei-salesbot__body .salesbot-designer__widgets-param[data-field-name="close_tasks"] {
+    padding-top: 2px;
+}
+
+.sensei-salesbot__body .salesbot-designer__widgets-param[data-field-name="close_tasks"] .control-checkbox__text {
+    margin: 0 0 0 9px;
+}
+
+.salesbot-designer__block-header .sensei-start-modal-mode-select {
+    color: #8f9a9d;
+}
+
+.sensei-salesbot-block span.salesbot-designer__block-header-name.salesbot-designer__block-header-name_text::before {
+    content: "\200d"; /* пробел нулевой ширины, так как амо, похоже, добавляет свои пробелы вокруг */
+}
